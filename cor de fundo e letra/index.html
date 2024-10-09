@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca de Cores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="text">Selecione uma Cor</h1>
+        
+        <label for="bgColorSelector">Cor de Fundo:</label>
+        <select id="bgColorSelector" onchange="changeBackgroundColor()">
+            <option value="">-- Escolha uma cor --</option>
+            <option value="red">Vermelho</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+            <option value="yellow">Amarelo</option>
+            <option value="purple">Roxo</option>
+            <option value="orange">Laranja</option>
+            <option value="white">Branco</option>
+            <option value="black">Preto</option>
+        </select>
+
+        <label for="textColorSelector">Cor do Texto:</label>
+        <select id="textColorSelector" onchange="changeTextColor()">
+            <option value="">-- Escolha uma cor --</option>
+            <option value="red">Vermelho</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+            <option value="yellow">Amarelo</option>
+            <option value="purple">Roxo</option>
+            <option value="orange">Laranja</option>
+            <option value="white">Branco</option>
+            <option value="black">Preto</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

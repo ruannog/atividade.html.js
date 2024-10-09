@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s; 
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    transition: color 0.5s; 
+}
